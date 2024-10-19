@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Site CPGE trop cool</title>
+        <link rel="stylesheet" href="./index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="config_panel">
+            <input class="buttons" id="text_groupe" type="number" name="boutton_groupe" value=2 max=12 min=1 id="boutton_groupe"/>
+            <input class="buttons" id="button_groupe" type="button" value="Changer le groupe" onclick="handle_html_groupe();"/>
+        </div>
+        <div class="config_panel">
+            <input class="buttons" id="semaine_av" type="button" value="Semaine précédente" onclick="handle_html_semaine(1);"/>
+            <input class="buttons" id="semaine_ap" type="button" value="Semaine prochaine" onclick="handle_html_semaine(2);"/>
+        </div>
+
+
+        <!-- truc de selection du groupe et tt -->
+
+        <table class="EDT">
+            <tr id="jour">
+                <td id="semaine"></td>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+                <th>Samedi</th>
+            </tr>
+            <tr id="8h">
+                <th>8h-9h</th>
+            </tr>
+            <tr id="9h">
+                <th>9h-10h</th>
+            </tr>
+            <tr id="10h">
+                <th>10h-11h</th>
+            </tr>
+            <tr id="11h">
+                <th>11h-12h</th>
+            </tr>
+            <tr id="12h">
+                <th>12h-13h</th>
+            </tr>
+            <tr id="13h">
+                <th>13h-14h</th>
+            </tr>
+            <tr id="14h">
+                <th>14h-15h</th>
+            </tr>
+            <tr id="15h">
+                <th>15h-16h</th>
+            </tr>
+            <tr id="16h">
+                <th>16h-17h</th>
+            </tr>
+            <tr id="17h">
+                <th>17h-18h</th>
+            </tr>
+            <tr id="18h">
+                <th>18h-19h</th>
+            </tr>
+        </table>
+    </body>
+</html>
