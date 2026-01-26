@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   background-color: rgb(255, 255, 255);
   font-size: large;
@@ -93,7 +92,8 @@ th, td {
   background-color: rgb(255, 130, 130);
   border: 1px solid black;
   border-collapse: collapse;
-=======
+}
+
 .text {
   margin-top: 25px;
 }
@@ -180,5 +180,4 @@ th, td {
     opacity: 1;
     transform: translate(-50%, -30px);
   }
->>>>>>> 75a811c (2026 update)
 }
