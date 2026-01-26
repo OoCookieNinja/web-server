@@ -1,0 +1,25 @@
+/* Global styles */
+.download {
+  margin: 10px;
+}
+.download > a {
+  cursor: pointer;
+  color: black;
+}
+
+/* MCE styles */
+.MCE {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Eat. Bang! Kill tour styles */
+.EBKT {
+    display: flex;
+}
+
+.EBKT > a > #cover {
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+}

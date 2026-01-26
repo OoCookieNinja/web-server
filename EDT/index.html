@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>EDT des 2TSI de P.P.R.</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="../menu.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="icon.png" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="../index.html">Home Page</a>
+            <a href="index.html" class="active">EDT des 2TSI</a>
+            <a href="../downloads.html">Downloads</a>
+            <a href="../cookie-clicker/">Secret Cookie</a>
+        </div>
+
+        <div class="top_panel">
+            <div class="config_panel_table">
+                <input class="buttons" id="text_groupe" type="number" name="boutton_groupe" value=3 max=10 min=1/>
+                <input class="buttons" id="button_groupe" type="button" value="Changer le groupe" onclick="handle_html_groupe();"/>
+                <input class="buttons" id="semaine_av" type="button" value="Semaine précédente" onclick="handle_html_semaine(1);"/>
+                <input class="buttons" id="semaine_ap" type="button" value="Semaine prochaine" onclick="handle_html_semaine(2);"/>
+            </div>
+            <div class="config_panel_DM">
+                <p id="DM"></p>
+            </div>
+        </div>
+
+        <div class="timetable">
+            <table class="EDT">
+                <tr id="jour">
+                    <td class="head_collumn" id="semaine"></td>
+                    <th>Lundi</th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                    <th>Samedi</th>
+                </tr>
+                <tr id="8h">
+                    <th class="head_collumn">8h-9h</th>
+                </tr>
+                <tr id="9h">
+                    <th class="head_collumn">9h-10h</th>
+                </tr>
+                <tr id="10h">
+                    <th class="head_collumn">10h-11h</th>
+                </tr>
+                <tr id="11h">
+                    <th class="head_collumn">11h-12h</th>
+                </tr>
+                <tr id="12h">
+                    <th class="head_collumn">12h-13h</th>
+                </tr>
+                <tr id="13h">
+                    <th class="head_collumn">13h-14h</th>
+                </tr>
+                <tr id="14h">
+                    <th class="head_collumn">14h-15h</th>
+                </tr>
+                <tr id="15h">
+                    <th class="head_collumn">15h-16h</th>
+                </tr>
+                <tr id="16h">
+                    <th class="head_collumn">16h-17h</th>
+                </tr>
+                <tr id="17h">
+                    <th class="head_collumn">17h-18h</th>
+                </tr>
+                <tr id="18h">
+                    <th class="head_collumn">18h-19h</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

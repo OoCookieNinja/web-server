@@ -2,68 +2,62 @@
 
 <html>
     <head>
-        <title>Site CPGE trop cool</title>
-        <link rel="stylesheet" href="./index.css">
+        <title>Aly's Site</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="menu.css">
+        <script src="https://kit.fontawesome.com/1927b45248.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <script src="main.js"></script>
+        <link rel="icon" type="image/png" href="/pfps/posion_ivy_normal.png" />
     </head>
-    <body>
-        <div class="config_panel">
-            <input class="buttons" id="text_groupe" type="number" name="boutton_groupe" value=2 max=12 min=1 id="boutton_groupe"/>
-            <input class="buttons" id="button_groupe" type="button" value="Changer le groupe" onclick="handle_html_groupe();"/>
+
+    <div class="menu">
+        <a href="index.html" class="active">Home Page</a>
+        <a href="/EDT/">EDT des 2TSI</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="/cookie-clicker/">Secret Cookie</a>
+    </div>
+
+    <div class="text">
+        <h2>About me</h2>
+        <div>
+            Hi it's alyx
         </div>
-        <div class="config_panel">
-            <input class="buttons" id="semaine_av" type="button" value="Semaine précédente" onclick="handle_html_semaine(1);"/>
-            <input class="buttons" id="semaine_ap" type="button" value="Semaine prochaine" onclick="handle_html_semaine(2);"/>
+    </div>
+
+    <div class="footer">
+        <div class="social-links">
+            <h3>Socials:<h3>
+            <span class="tooltip-link" data-tooltip="el_cookie_kinder">
+                <a class="icon" id="instagram" href="https://www.instagram.com/el_cookie_kinder/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+            </span>
+            <span class="tooltip-link" data-tooltip="@Alyx-Esperence">
+                <a class="icon" id="youtube" href="https://www.youtube.com/@Alyx-Esperence"><i class="fa-brands fa-youtube fa-xl"></i></a>
+            </span>
+            <span class="tooltip-link" data-tooltip="the_real_alyx">
+                <a class="icon" id="twitch" href="https://www.twitch.tv/the_real_alyx"><i class="fa-brands fa-twitch fa-xl"></i></a>
+            </span>
+            <span class="tooltip-link" data-tooltip="OoCookieNinja">
+                <a class="icon" id="github" href="https://github.com/OoCookieNinja"><i class="fa-brands fa-github fa-xl"></i></a>
+            </span>
+            <span class="tooltip-link" data-tooltip="OoCookieNinja">
+                <a class="icon" id="reddit" href="https://www.reddit.com/user/Pixelkraft1408/"><i class="fa-brands fa-reddit fa-xl"></i></a>
+            </span>
+            <span class="tooltip-link" data-tooltip="OoCookieNinja">
+                <a class="icon" id="steam" href="https://steamcommunity.com/id/OoCookieNinja/"><i class="fa-brands fa-steam fa-xl"></i></a>
+            </span>
+            <span class="tooltip-link" data-tooltip="@a1yx.">
+                <a class="icon" id="discord" ><i class="fa-brands fa-discord fa-xl"></i></a>
+            </span>
         </div>
-
-
-        <!-- truc de selection du groupe et tt -->
-
-        <table class="EDT">
-            <tr id="jour">
-                <td id="semaine"></td>
-                <th>Lundi</th>
-                <th>Mardi</th>
-                <th>Mercredi</th>
-                <th>Jeudi</th>
-                <th>Vendredi</th>
-                <th>Samedi</th>
-            </tr>
-            <tr id="8h">
-                <th>8h-9h</th>
-            </tr>
-            <tr id="9h">
-                <th>9h-10h</th>
-            </tr>
-            <tr id="10h">
-                <th>10h-11h</th>
-            </tr>
-            <tr id="11h">
-                <th>11h-12h</th>
-            </tr>
-            <tr id="12h">
-                <th>12h-13h</th>
-            </tr>
-            <tr id="13h">
-                <th>13h-14h</th>
-            </tr>
-            <tr id="14h">
-                <th>14h-15h</th>
-            </tr>
-            <tr id="15h">
-                <th>15h-16h</th>
-            </tr>
-            <tr id="16h">
-                <th>16h-17h</th>
-            </tr>
-            <tr id="17h">
-                <th>17h-18h</th>
-            </tr>
-            <tr id="18h">
-                <th>18h-19h</th>
-            </tr>
-        </table>
-    </body>
+        <div class="mail">
+            <h3>Mail:<h3>
+            <span class="tooltip-link" data-tooltip="alyx.lochon@gmail.com">
+                <a class="icon" id="gmail"   href="mailto:alyx.lochon@gmail.com"><i class="fa-solid fa-paper-plane fa-xl"></i> Gmail</a>
+            </span>
+            <span class="tooltip-link" data-tooltip="alyx@davosia.gay">
+                <a class="icon" id="davosia" href="mailto:alyx@davosia.gay"><i class="fa-solid fa-paper-plane fa-xl"></i> Davosia.gay</a>
+            </span>
+        </div>
+    </div>
 </html>
