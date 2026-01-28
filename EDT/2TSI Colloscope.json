@@ -287,7 +287,7 @@
 		"",
 		"SII",
 		"SII",
-		true,
+		false,
 		true
 	],
 	"S6": [
@@ -657,7 +657,7 @@
 		2,
 		"Maths",
 		"Physique",
-		false,
+		true,
 		true
 	],
 	"S16": [
@@ -694,7 +694,7 @@
 		"",
 		"",
 		"SII",
-		true,
+		false,
 		true
 	],
 	"S17": [
@@ -842,8 +842,8 @@
 		"",
 		"SII",
 		"Physique",
-		false,
-		false
+		true,
+		true
 	],
 	"S21": [
 		"January 19, 2026",
@@ -916,8 +916,8 @@
 		"",
 		"Francais",
 		"Maths",
-		true,
-		true
+		false,
+		false
 	],
 	"S23": [
 		"February 2, 2026",
@@ -990,8 +990,8 @@
 		8,
 		"Maths",
 		"SII",
-		false,
-		false
+		true,
+		true
 	],
 	"S25": [
 		"February 16, 2026",
@@ -1138,8 +1138,8 @@
 		"",
 		"Anglais",
 		"Physique",
-		true,
-		true
+		false,
+		false
 	],
 	"S29": [
 		"March 16, 2026",
