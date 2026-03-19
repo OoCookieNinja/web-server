@@ -1173,10 +1173,10 @@
 		"",
 		"",
 		"",
-		"",
-		"",
-		"",
-		""
+		"Francais",
+		"SII",
+		true,
+		true
 	],
 	"S30": [
 		"March 23, 2026",
@@ -1210,8 +1210,8 @@
 		3,
 		1,
 		"",
-		"Francais",
-		"SII",
+		"Physique",
+		"Maths",
 		true,
 		true
 	],
@@ -1247,8 +1247,8 @@
 		"",
 		8,
 		2,
+		"SII",
 		"Physique",
-		"Maths",
 		true,
 		true
 	],
@@ -1284,9 +1284,9 @@
 		5,
 		6,
 		"",
+		"Math",
 		"SII",
-		"Physique",
-		true,
+		false,
 		true
 	],
 	"S33": [
@@ -1321,10 +1321,10 @@
 		9,
 		2,
 		"",
-		"Math",
-		"SII",
+		"",
+		"Maths",
 		false,
-		true
+		false
 	],
 	"S36": [
 		"May 4, 2026",
@@ -1359,9 +1359,9 @@
 		4,
 		"",
 		"",
-		"Maths",
-		false,
-		false
+		"",
+		"",
+		""
 	],
 	"S34": [
 		"April 20, 2026",
