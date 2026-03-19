@@ -15,11 +15,10 @@ body {
   min-width: fit-content;
 }
 
-/*.timetable {
-  overflow-x: scroll;
-  overflow-y: visible;
-  padding: 0;
-}*/
+.config_panel_table #text_groupe {
+  width: 20%;
+}
+
 table {
   background-color: rgb(219, 219, 219);
   margin-top: 20px;
